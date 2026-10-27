@@ -4,5 +4,5 @@ exports.TOPICS = void 0;
 var TOPICS;
 (function (TOPICS) {
     TOPICS["SEND_EMAIL"] = "send_email";
-})(TOPICS = exports.TOPICS || (exports.TOPICS = {}));
+})(TOPICS || (exports.TOPICS = TOPICS = {}));
 exports.default = TOPICS;
